@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giovanna Gomes">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="keywords" content="formulários, get, coach">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="login.html" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="digite seu nome" autocomplete="addictional-name" tabindex="1"><br>
+    <!-- placeholder é uma informação colocada que quando você clica e escreve no campo input, ela some. é como uma instrução -->
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" id="sobrenome" value="freitas" required tabindex="3"><br> 
+    <!-- required é usado pra ser obrigatório, ou seja, se aquele campo não for preenchido o formulário não será validado -->
+    <!-- autofocus faz o cursor começar a piscar para "focar" onde é preciso colocar a informação-->
+    <label for="senha">senha</label>
+    <input type="password" name="senha" id="senha" tabindex="2">
+    <!-- tabindex serve para colocar a ordem quando apertat o tab, assim ele leva o cursor para o próximo campo conforme a ordem colocada -->
+    <!-- o value freitas é para deixar uma pré informação dentro do campo de input, mas é possível apagar, é como um exemplo -->
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
